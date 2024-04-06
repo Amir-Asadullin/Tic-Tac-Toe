@@ -76,7 +76,7 @@ void Player()
 	while (1) {
 		int x;
 		int y;
-		std::cout << "Enter the x: ";
+		std::cout << "\nEnter the x: ";
 		std::cin >> x;
 		std::cout << "Enter the y: ";
 		std::cin >> y;
@@ -85,7 +85,7 @@ void Player()
 			break;
 		}
 		else {
-			std::cout << "Error!";
+			std::cout << "Error!\n";
 		}
 	}
 
@@ -291,12 +291,15 @@ int main()
 	}
 
 	if (w == 1) {
-		std::cout << "You win!";
+		std::cout << "You win!\n";
+		system("pause");
 	}
 	else if (w == 2) {
-		std::cout << "You lost!";
+		std::cout << "You lost!\n";
+		system("pause");
 	}
 	else {
-		std::cout << "Draw!";
+		std::cout << "Draw!\n";
+		system("pause");
 	}
 }
